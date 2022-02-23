@@ -1,0 +1,74 @@
+.row{
+    margin-bottom: 15px;
+}
+.row > div{
+    border: 2px solid black;
+    background-color: #999999;
+}
+h1{
+    text-align: center;
+}
+.chi{
+    background-color: #D59898;
+    border: 2px solid black;
+    width: 100px;
+    float: right;
+    margin-top: 0px;
+    display: inline-block;
+}
+.bee{
+    background-color: #C14543;
+    border: 2px solid black;
+    width: 100px;
+    float: right;
+    margin-top: 0px;
+    display: inline-block;
+}
+.sus{
+    background-color: #E5D198;
+    border: 2px solid black;
+    width: 100px;
+    float: right;
+    margin-top: 0px;
+    display: inline-block;
+}
+.col-1, .col-2, .col-3{
+    width: 32%;
+    display: inline-block;
+    
+}
+[class*="col-"] {
+    width: 100%;
+  }
+  @media only screen and (max-width: 600px) {
+         .col-1, .col-2, .col-3{
+            width: 100%;
+            margin-top: 4px;
+         }
+  }
+  @media only screen and (min-width: 600px) {
+      .col-1, .col-2, .col-3 {
+          width: 99%;
+          display: inline-block;
+          margin-top: 5px;
+      }
+  }
+  @media only screen and (min-width: 1014px) {
+      .col-1, .col-2 {
+          width: 49.4%;
+          display: inline-block;
+      }
+      .col-3 {
+          width: 99.5%;
+          margin-top: 5px;
+          display: inline-block;
+      }
+    }
+    @media only screen and (min-width: 1264px) {
+        .col-1, .col-2, .col-3 {
+            width: 32.8%;
+        }
+    }
+    
+
+  
